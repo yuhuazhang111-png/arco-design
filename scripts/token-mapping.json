@@ -1,0 +1,126 @@
+{
+  "colors": {
+    "brand": {
+      "brand1": "arcoblue-6",
+      "brand2": "arcoblue-7",
+      "brand3": "arcoblue-1",
+      "brand4": "arcoblue-2",
+      "brand5": "arcoblue-3",
+      "brand6": "arcoblue-5",
+      "brand7": "arcoblue-4"
+    },
+    "error": {
+      "error1": "red-6",
+      "error2": "red-1",
+      "error3": "red-5",
+      "error4": "red-9",
+      "error5": "red-7",
+      "error6": "red-2",
+      "error7": "red-1",
+      "error8": "red-4"
+    },
+    "success": {
+      "success1": "green-6",
+      "success2": "green-1",
+      "success3": "green-7",
+      "success4": "green-1",
+      "success5": "green-2",
+      "success6": "green-2"
+    },
+    "warning": {
+      "warning1": "orange-6",
+      "warning2": "orange-2",
+      "warning3": "orange-1"
+    },
+    "info": {
+      "info1": "blue-6",
+      "info2": "blue-1",
+      "info3": "blue-5",
+      "info4": "blue-2",
+      "info5": "blue-1",
+      "info6": "blue-4"
+    },
+    "bg": {
+      "bg1": "color-bg-1",
+      "bg2": "color-bg-2",
+      "bg3": "color-bg-3",
+      "bg4": "color-bg-4",
+      "bg5": "color-bg-5",
+      "bg6": "color-fill-2",
+      "bg7": "color-fill-3",
+      "bg8": "color-fill-4",
+      "bg9": "color-fill-1",
+      "bg10": "color-tooltip-bg",
+      "bg11": "color-bg-1"
+    },
+    "text": {
+      "opacity_w1": "color-white",
+      "opacity_w2": "color-text-1",
+      "opacity_w3": "color-text-2",
+      "opacity_w4": "color-text-3",
+      "opacity_w5": "color-text-4"
+    }
+  },
+  "sizes": {
+    "radius": {
+      "r1": "border-radius-small",
+      "r2": "border-radius-medium",
+      "r3": "border-radius-medium",
+      "r4": "border-radius-large",
+      "r5": "border-radius-large",
+      "r6": "border-radius-large",
+      "r7": "border-radius-large"
+    },
+    "border": {
+      "mini": "border-none",
+      "s": "border-1",
+      "m": "border-2",
+      "l": "border-5",
+      "xl": "border-5"
+    }
+  },
+  "spacing": {
+    "s0": "spacing-none",
+    "s2": "spacing-1",
+    "s4": "spacing-2",
+    "s6": "spacing-3",
+    "s8": "spacing-4",
+    "s10": "spacing-5",
+    "s12": "spacing-6",
+    "s16": "spacing-7",
+    "s20": "spacing-8",
+    "s24": "spacing-9",
+    "s32": "spacing-10"
+  },
+  "typography": {
+    "h1": {
+      "fontSize": "font-size-title-2",
+      "fontWeight": "font-weight-500"
+    },
+    "h2": {
+      "fontSize": "font-size-title-3",
+      "fontWeight": "font-weight-500"
+    },
+    "h3": {
+      "fontSize": "font-size-display-1",
+      "fontWeight": "font-weight-500"
+    },
+    "first_m": {
+      "fontSize": "font-size-title-1",
+      "fontWeight": "font-weight-500"
+    },
+    "secondary_s": {
+      "fontSize": "font-size-body-3",
+      "fontWeight": "font-weight-400"
+    },
+    "tertiary_s": {
+      "fontSize": "font-size-body-2",
+      "fontWeight": "font-weight-400"
+    },
+    "fourth_s": {
+      "fontSize": "font-size-body-1",
+      "fontWeight": "font-weight-400"
+    }
+  }
+}
+

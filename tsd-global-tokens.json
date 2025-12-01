@@ -1,0 +1,953 @@
+{
+  "global": {
+    "border_width": {
+      "l": {
+        "value": "5px",
+        "type": "borderWidth"
+      },
+      "m": {
+        "value": "2px",
+        "type": "borderWidth"
+      },
+      "mini": {
+        "value": "0px",
+        "type": "borderWidth"
+      },
+      "s": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "xl": {
+        "value": "6px",
+        "type": "borderWidth"
+      }
+    },
+    "box_shadow": {
+      "value": {
+        "blur": "4",
+        "color": "rgba(0,0,0,0.5)",
+        "spread": "0",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "1"
+      },
+      "type": "boxShadow",
+      "description": "用在悬浮的组件上"
+    },
+    "clr": {
+      "bg1": {
+        "value": "rgba(16,17,19,1)",
+        "type": "color",
+        "description": "🟠 导航栏、画布（🍰蛋糕）"
+      },
+      "bg10": {
+        "value": "rgba(55,58,67,1)",
+        "type": "color",
+        "description": "toast背景——蛋糕"
+      },
+      "bg11": {
+        "value": "rgba(9,9,10,1)",
+        "type": "color"
+      },
+      "bg2": {
+        "value": "rgba(35,37,43,1)",
+        "type": "color",
+        "description": "🟠   操作面板背景色"
+      },
+      "bg3": {
+        "value": "rgba(45,47,52,1)",
+        "type": "color",
+        "description": "🟠   弹窗背景色"
+      },
+      "bg4": {
+        "value": "rgba(226,227,233,1)",
+        "type": "color",
+        "description": "🟠   维度最高，覆盖于弹窗之上，例如tooltips"
+      },
+      "bg5": {
+        "value": "rgba(53,55,58,1)",
+        "type": "color"
+      },
+      "bg6": {
+        "value": "rgba(70,73,81,1)",
+        "type": "color",
+        "description": "🟪🟪🟪🟪🟪🟪\n\n下拉菜单、按钮、tab选中、开关底色"
+      },
+      "bg7": {
+        "value": "rgba(85,89,98,1)",
+        "type": "color",
+        "description": "bg6的hover态"
+      },
+      "bg8": {
+        "value": "rgba(95,99,109,1)",
+        "type": "color",
+        "description": "bg6的active态"
+      },
+      "bg9": {
+        "value": "rgba(25,26,31,1)",
+        "type": "color",
+        "description": "分段器的背景色"
+      },
+      "brand1": {
+        "value": "rgba(255,221,76,1)",
+        "type": "color",
+        "description": "品牌黄 500"
+      },
+      "brand2": {
+        "value": "rgba(210,176,50,1)",
+        "type": "color",
+        "description": "yellow 600"
+      },
+      "brand3": {
+        "value": "rgba(255,224,80,0.3)",
+        "type": "color"
+      },
+      "brand4": {
+        "value": "rgba(210,176,50,0.55)",
+        "type": "color"
+      },
+      "brand5": {
+        "value": "rgba(255,242,141,1)",
+        "type": "color"
+      },
+      "brand6": {
+        "value": "rgba(255,229,119,1)",
+        "type": "color",
+        "description": "hover态"
+      },
+      "brand7": {
+        "value": "rgba(255,240,174,1)",
+        "type": "color",
+        "description": "pressed"
+      },
+      "error1": {
+        "value": "rgba(252,85,85,1)",
+        "type": "color",
+        "description": "反馈色-错误红-red500"
+      },
+      "error2": {
+        "value": "rgba(255,236,232,1)",
+        "type": "color",
+        "description": "反馈色-错误红-red50"
+      },
+      "error3": {
+        "value": "rgba(253,119,114,1)",
+        "type": "color",
+        "description": "反馈色-错误红-red400"
+      },
+      "error4": {
+        "value": "rgba(120,10,21,1)",
+        "type": "color",
+        "description": "反馈色-错误红-red800"
+      },
+      "error5": {
+        "value": "rgba(208,53,58,1)",
+        "type": "color",
+        "description": "蛋糕没用"
+      },
+      "error6": {
+        "value": "rgba(208,53,58,0.55)",
+        "type": "color",
+        "description": "蛋糕没用"
+      },
+      "error7": {
+        "value": "rgba(208,53,58,0.3)",
+        "type": "color"
+      },
+      "error8": {
+        "value": "rgba(253,151,143,1)",
+        "type": "color"
+      },
+      "info1": {
+        "value": "rgba(48,131,255,1)",
+        "type": "color",
+        "description": "反馈色_信息蓝_blue500"
+      },
+      "info2": {
+        "value": "rgba(232,245,255,1)",
+        "type": "color",
+        "description": "反馈色-信息蓝-blue50"
+      },
+      "info3": {
+        "value": "rgba(85,159,255,1)",
+        "type": "color",
+        "description": "反馈色_信息蓝_blue400"
+      },
+      "info4": {
+        "value": "rgba(48,131,255,0.55)",
+        "type": "color",
+        "description": "反馈色_信息蓝_blue500"
+      },
+      "info5": {
+        "value": "rgba(48,131,255,0.3)",
+        "type": "color",
+        "description": "反馈色_信息蓝_blue500"
+      },
+      "info6": {
+        "value": "rgba(122,184,255,1)",
+        "type": "color",
+        "description": "pressed\n"
+      },
+      "opacity_b1": {
+        "value": "rgba(0,0,0,1)",
+        "type": "color",
+        "description": "黑色 100%"
+      },
+      "opacity_b10": {
+        "value": "rgba(0,0,0,0.4)",
+        "type": "color",
+        "description": "黑色纯色=40%"
+      },
+      "opacity_b11": {
+        "value": "rgba(0,0,0,0.35)",
+        "type": "color",
+        "description": "黑色35%"
+      },
+      "opacity_b2": {
+        "value": "rgba(0,0,0,0.85)",
+        "type": "color",
+        "description": "黑色 85%"
+      },
+      "opacity_b3": {
+        "value": "rgba(0,0,0,0.7)",
+        "type": "color",
+        "description": "黑色70%"
+      },
+      "opacity_b4": {
+        "value": "rgba(0,0,0,0.55)",
+        "type": "color",
+        "description": "黑色55%"
+      },
+      "opacity_b5": {
+        "value": "rgba(0,0,0,0.3)",
+        "type": "color",
+        "description": "黑色30%"
+      },
+      "opacity_b6": {
+        "value": "rgba(0,0,0,0.2)",
+        "type": "color",
+        "description": "黑色20%"
+      },
+      "opacity_b7": {
+        "value": "rgba(0,0,0,0.15)",
+        "type": "color",
+        "description": "黑色15%"
+      },
+      "opacity_b8": {
+        "value": "rgba(0,0,0,0.1)",
+        "type": "color",
+        "description": "黑色10%"
+      },
+      "opacity_b9": {
+        "value": "rgba(0,0,0,0.05)",
+        "type": "color",
+        "description": "黑色5%"
+      },
+      "opacity_w1": {
+        "value": "rgba(255,255,255,1)",
+        "type": "color",
+        "description": "白色 100%"
+      },
+      "opacity_w10": {
+        "value": "rgba(255,255,255,0.25)",
+        "type": "color",
+        "description": "白色 25%"
+      },
+      "opacity_w11": {
+        "value": "rgba(255,255,255,0)",
+        "type": "color",
+        "description": "白色 0%"
+      },
+      "opacity_w12": {
+        "value": "rgba(255,255,255,0.08)",
+        "type": "color",
+        "description": "文本框背景色——蛋糕"
+      },
+      "opacity_w2": {
+        "value": "rgba(255,255,255,0.85)",
+        "type": "color",
+        "description": "白色 85%"
+      },
+      "opacity_w3": {
+        "value": "rgba(255,255,255,0.7)",
+        "type": "color",
+        "description": "白色 70%"
+      },
+      "opacity_w4": {
+        "value": "rgba(255,255,255,0.55)",
+        "type": "color",
+        "description": "白色 55%"
+      },
+      "opacity_w5": {
+        "value": "rgba(255,255,255,0.3)",
+        "type": "color",
+        "description": "白色 30%"
+      },
+      "opacity_w6": {
+        "value": "rgba(255,255,255,0.2)",
+        "type": "color",
+        "description": "白色 20%"
+      },
+      "opacity_w7": {
+        "value": "rgba(255,255,255,0.15)",
+        "type": "color",
+        "description": "白色 15%"
+      },
+      "opacity_w8": {
+        "value": "rgba(255,255,255,0.12)",
+        "type": "color",
+        "description": "白色 12%"
+      },
+      "opacity_w9": {
+        "value": "rgba(255,255,255,0.06)",
+        "type": "color",
+        "description": "白色 6%"
+      },
+      "solid_b2": {
+        "value": "rgba(9,12,21,1)",
+        "type": "color",
+        "description": "黑色纯色=85%（二级tooltip背景）"
+      },
+      "solid_b3": {
+        "value": "rgba(11,11,12,1)",
+        "type": "color",
+        "description": "黑色纯色=70%"
+      },
+      "solid_b4": {
+        "value": "rgba(16,17,18,1)",
+        "type": "color",
+        "description": "黑色纯色=55%"
+      },
+      "solid_b5": {
+        "value": "rgba(24,27,29,1)",
+        "type": "color",
+        "description": "黑色纯色=30%"
+      },
+      "solid_b6": {
+        "value": "rgba(28,30,33,1)",
+        "type": "color",
+        "description": "黑色纯色=20%"
+      },
+      "solid_b7": {
+        "value": "rgba(30,32,35,1)",
+        "type": "color",
+        "description": "黑色纯色=15%"
+      },
+      "solid_b8": {
+        "value": "rgba(31,34,37,1)",
+        "type": "color",
+        "description": "黑色纯色=10%"
+      },
+      "solid_b9": {
+        "value": "rgba(33,36,39,1)",
+        "type": "color",
+        "description": "黑色纯色=5%"
+      },
+      "solid_w2": {
+        "value": "rgba(222,222,223,1)",
+        "type": "color",
+        "description": "白色纯色=85%"
+      },
+      "solid_w3": {
+        "value": "rgba(197,197,197,1)",
+        "type": "color",
+        "description": "白色纯色=70%"
+      },
+      "solid_w4": {
+        "value": "rgba(156,157,159,1)",
+        "type": "color",
+        "description": "白色纯色=55%"
+      },
+      "solid_w5": {
+        "value": "rgba(101,103,105,1)",
+        "type": "color",
+        "description": "白色纯色=30%"
+      },
+      "solid_w6": {
+        "value": "rgba(79,81,84,1)",
+        "type": "color",
+        "description": "白色纯色=20%"
+      },
+      "solid_w7": {
+        "value": "rgba(68,70,73,1)",
+        "type": "color",
+        "description": "白色纯色=15%"
+      },
+      "solid_w8": {
+        "value": "rgba(71,73,78,1)",
+        "type": "color",
+        "description": "白色纯色=12%"
+      },
+      "solid_w9": {
+        "value": "rgba(46,48,54,1)",
+        "type": "color",
+        "description": "白色纯色=5%"
+      },
+      "success1": {
+        "value": "rgba(28,185,90,1)",
+        "type": "color",
+        "description": "反馈色-成功绿-green500"
+      },
+      "success2": {
+        "value": "rgba(232,255,237,1)",
+        "type": "color",
+        "description": "反馈色-成功绿-green50"
+      },
+      "success3": {
+        "value": "rgba(18,158,79,1)",
+        "type": "color",
+        "description": "反馈色-成功绿-green600"
+      },
+      "success4": {
+        "value": "rgba(60,199,111,0.1)",
+        "type": "color"
+      },
+      "success5": {
+        "value": "rgba(28,185,90,0.55)",
+        "type": "color",
+        "description": "反馈色-成功绿-green500"
+      },
+      "success6": {
+        "value": "rgba(60,199,111,0.3)",
+        "type": "color"
+      },
+      "warning1": {
+        "value": "rgba(255,153,0,1)",
+        "type": "color",
+        "description": "反馈色-警告橙-orange500"
+      },
+      "warning2": {
+        "value": "rgba(255,153,0,0.55)",
+        "type": "color",
+        "description": "反馈色-警告橙-orange500"
+      },
+      "warning3": {
+        "value": "rgba(255,250,232,1)",
+        "type": "color",
+        "description": "反馈色-警告橙-orange50"
+      }
+    },
+    "opacity": {
+      "o1": {
+        "value": "100%",
+        "type": "opacity",
+        "description": "一般用于常态"
+      },
+      "o2": {
+        "value": "85%",
+        "type": "opacity"
+      },
+      "o3": {
+        "value": "70%",
+        "type": "opacity",
+        "description": "按压态"
+      },
+      "o4": {
+        "value": "55%",
+        "type": "opacity"
+      },
+      "o5": {
+        "value": "30%",
+        "type": "opacity",
+        "description": "一般用于全局禁用态"
+      }
+    },
+    "radius": {
+      "r1": {
+        "value": "2px",
+        "type": "borderRadius",
+        "description": "🟧 主要"
+      },
+      "r2": {
+        "value": "4px",
+        "type": "borderRadius",
+        "description": "🟩 外层、大模块"
+      },
+      "r3": {
+        "value": "6px",
+        "type": "borderRadius"
+      },
+      "r4": {
+        "value": "8px",
+        "type": "borderRadius"
+      },
+      "r5": {
+        "value": "10px",
+        "type": "borderRadius"
+      },
+      "r6": {
+        "value": "12px",
+        "type": "borderRadius"
+      },
+      "r7": {
+        "value": "16px",
+        "type": "borderRadius"
+      },
+      "r8": {
+        "value": "3px",
+        "type": "borderRadius"
+      },
+      "r9": {
+        "value": "1px",
+        "type": "borderRadius"
+      },
+      "r10": {
+        "value": "5px",
+        "type": "borderRadius"
+      }
+    },
+    "size": {
+      "s1": {
+        "value": "10px",
+        "type": "sizing",
+        "description": "10\n"
+      },
+      "s10": {
+        "value": "48px",
+        "type": "sizing",
+        "description": "48\n"
+      },
+      "s11": {
+        "value": "26px",
+        "type": "sizing",
+        "description": "26"
+      },
+      "s12": {
+        "value": "64px",
+        "type": "sizing",
+        "description": "64"
+      },
+      "s13": {
+        "value": "60px",
+        "type": "sizing",
+        "description": "60\n"
+      },
+      "s14": {
+        "value": "31px",
+        "type": "sizing",
+        "description": "31"
+      },
+      "s15": {
+        "value": "2px",
+        "type": "sizing"
+      },
+      "s16": {
+        "value": "38px",
+        "type": "sizing",
+        "description": "38"
+      },
+      "s17": {
+        "value": "12px",
+        "type": "sizing"
+      },
+      "s18": {
+        "value": "14px",
+        "type": "sizing",
+        "description": "14"
+      },
+      "s19": {
+        "value": "32px",
+        "type": "sizing"
+      },
+      "s2": {
+        "value": "16px",
+        "type": "sizing",
+        "description": "16"
+      },
+      "s20": {
+        "value": "42px",
+        "type": "sizing"
+      },
+      "s21": {
+        "value": "4px",
+        "type": "sizing",
+        "description": "4"
+      },
+      "s22": {
+        "value": "18px",
+        "type": "sizing",
+        "description": "18"
+      },
+      "s23": {
+        "value": "8px",
+        "type": "sizing",
+        "description": "8"
+      },
+      "s24": {
+        "value": "1px",
+        "type": "sizing"
+      },
+      "s25": {
+        "value": "40px",
+        "type": "sizing"
+      },
+      "s26": {
+        "value": "80px",
+        "type": "sizing"
+      },
+      "s27": {
+        "value": "108px",
+        "type": "sizing"
+      },
+      "s28": {
+        "value": "54px",
+        "type": "sizing"
+      },
+      "s29": {
+        "value": "78px",
+        "type": "sizing"
+      },
+      "s3": {
+        "value": "20px",
+        "type": "sizing",
+        "description": "20"
+      },
+      "s30": {
+        "value": "420px",
+        "type": "sizing"
+      },
+      "s31": {
+        "value": "700px",
+        "type": "sizing"
+      },
+      "s32": {
+        "value": "1000px",
+        "type": "sizing"
+      },
+      "s33": {
+        "value": "700px",
+        "type": "sizing"
+      },
+      "s34": {
+        "value": "6px",
+        "type": "sizing"
+      },
+      "s35": {
+        "value": "108px",
+        "type": "sizing"
+      },
+      "s36": {
+        "value": "400px",
+        "type": "sizing"
+      },
+      "s37": {
+        "value": "70px",
+        "type": "sizing"
+      },
+      "s38": {
+        "value": "186px",
+        "type": "sizing"
+      },
+      "s39": {
+        "value": "52px",
+        "type": "sizing"
+      },
+      "s4": {
+        "value": "22px",
+        "type": "sizing",
+        "description": "22"
+      },
+      "s40": {
+        "value": "949px",
+        "type": "sizing"
+      },
+      "s41": {
+        "value": "720px",
+        "type": "sizing"
+      },
+      "s42": {
+        "value": "131px",
+        "type": "sizing"
+      },
+      "s43": {
+        "value": "500px",
+        "type": "sizing"
+      },
+      "s44": {
+        "value": "46px",
+        "type": "sizing"
+      },
+      "s45": {
+        "value": "100px",
+        "type": "sizing"
+      },
+      "s46": {
+        "value": "611px",
+        "type": "sizing",
+        "description": "带btn的toast最大宽度——蛋糕"
+      },
+      "s47": {
+        "value": "529px",
+        "type": "sizing",
+        "description": "带close的toast最大宽度——蛋糕"
+      },
+      "s48": {
+        "value": "278px",
+        "type": "sizing",
+        "description": "纯文字的toast最大宽度——蛋糕"
+      },
+      "s49": {
+        "value": "248px",
+        "type": "sizing"
+      },
+      "s5": {
+        "value": "24px",
+        "type": "sizing",
+        "description": "24\n"
+      },
+      "s50": {
+        "value": "600px",
+        "type": "sizing"
+      },
+      "s51": {
+        "value": "68px",
+        "type": "sizing"
+      },
+      "s6": {
+        "value": "28px",
+        "type": "sizing",
+        "description": "28"
+      },
+      "s7": {
+        "value": "34px",
+        "type": "sizing",
+        "description": "34"
+      },
+      "s8": {
+        "value": "36px",
+        "type": "sizing",
+        "description": "36"
+      },
+      "s9": {
+        "value": "44px",
+        "type": "sizing",
+        "description": "44"
+      }
+    },
+    "spacing": {
+      "s0": {
+        "value": "0px",
+        "type": "spacing"
+      },
+      "s1": {
+        "value": "1px",
+        "type": "spacing"
+      },
+      "s10": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "s11": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "s12": {
+        "value": "32px",
+        "type": "spacing"
+      },
+      "s13": {
+        "value": "36px",
+        "type": "spacing"
+      },
+      "s14": {
+        "value": "44px",
+        "type": "spacing"
+      },
+      "s15": {
+        "value": "28px",
+        "type": "spacing"
+      },
+      "s16": {
+        "value": "48px",
+        "type": "spacing"
+      },
+      "s17": {
+        "value": "68px",
+        "type": "spacing"
+      },
+      "s18": {
+        "value": "20px",
+        "type": "spacing"
+      },
+      "s19": {
+        "value": "5px",
+        "type": "spacing"
+      },
+      "s2": {
+        "value": "2px",
+        "type": "spacing"
+      },
+      "s20": {
+        "value": "96px",
+        "type": "spacing"
+      },
+      "s21": {
+        "value": "40px",
+        "type": "spacing"
+      },
+      "s3": {
+        "value": "3px",
+        "type": "spacing"
+      },
+      "s4": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "s5": {
+        "value": "6px",
+        "type": "spacing"
+      },
+      "s6": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "s7": {
+        "value": "10px",
+        "type": "spacing"
+      },
+      "s8": {
+        "value": "12px",
+        "type": "spacing"
+      },
+      "s9": {
+        "value": "14px",
+        "type": "spacing"
+      }
+    },
+    "typo": {
+      "fifth_m": {
+        "value": {
+          "fontSize": "11px",
+          "fontWeight": "500"
+        },
+        "type": "typography"
+      },
+      "fifth_s": {
+        "value": {
+          "fontSize": "11px",
+          "fontWeight": "400"
+        },
+        "type": "typography",
+        "description": "🏷️  标签"
+      },
+      "first_l": {
+        "value": {
+          "fontSize": "16px",
+          "fontWeight": "600"
+        },
+        "type": "typography"
+      },
+      "first_m": {
+        "value": {
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        "type": "typography",
+        "description": "🟡  弹窗大标题"
+      },
+      "first_s": {
+        "value": {
+          "fontSize": "16px",
+          "fontWeight": "400"
+        },
+        "type": "typography"
+      },
+      "fourth_l": {
+        "value": {
+          "fontSize": "12px",
+          "fontWeight": "600"
+        },
+        "type": "typography"
+      },
+      "fourth_m": {
+        "value": {
+          "fontSize": "12px",
+          "fontWeight": "500"
+        },
+        "type": "typography",
+        "description": "🕹️ 分类标题"
+      },
+      "fourth_s": {
+        "value": {
+          "fontSize": "12px",
+          "fontWeight": "400"
+        },
+        "type": "typography",
+        "description": "🔵  主要字体"
+      },
+      "h1": {
+        "value": {
+          "fontSize": "20px",
+          "fontWeight": "500"
+        },
+        "type": "typography"
+      },
+      "h2": {
+        "value": {
+          "fontSize": "24px",
+          "fontWeight": "500"
+        },
+        "type": "typography"
+      },
+      "h3": {
+        "value": {
+          "fontSize": "32px",
+          "fontWeight": "500"
+        },
+        "type": "typography"
+      },
+      "h4": {
+        "value": {
+          "fontSize": "32px",
+          "fontWeight": "400"
+        },
+        "type": "typography"
+      },
+      "secondary_l": {
+        "value": {
+          "fontSize": "14px",
+          "fontWeight": "600"
+        },
+        "type": "typography"
+      },
+      "secondary_m": {
+        "value": {
+          "fontSize": "14px",
+          "fontWeight": "500"
+        },
+        "type": "typography"
+      },
+      "secondary_s": {
+        "value": {
+          "fontSize": "14px",
+          "fontWeight": "400"
+        },
+        "type": "typography",
+        "description": "✅弹窗征文、checkbox"
+      },
+      "tertiary_l": {
+        "value": {
+          "fontSize": "13px",
+          "fontWeight": "600"
+        },
+        "type": "typography"
+      },
+      "tertiary_m": {
+        "value": {
+          "fontSize": "13px",
+          "fontWeight": "500"
+        },
+        "type": "typography",
+        "description": "🅿️大标题"
+      },
+      "tertiary_s": {
+        "value": {
+          "fontSize": "13px",
+          "fontWeight": "400"
+        },
+        "type": "typography",
+        "description": "🟠  弹窗标题"
+      }
+    }
+  }
+}

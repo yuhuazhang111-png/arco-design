@@ -1,0 +1,18 @@
+{
+  "name": "tsd-test",
+  "version": "1.0.0",
+  "description": "TSD Custom Theme for Arco Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert-tokens": "node scripts/convert-tokens.js",
+    "build:theme": "npm run convert-tokens"
+  },
+  "keywords": ["arco-design", "theme", "design-tokens"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@arco-design/web-react": "^2.66.8"
+  }
+}
